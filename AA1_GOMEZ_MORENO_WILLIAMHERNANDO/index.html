@@ -9,7 +9,45 @@
 </head>
 <body>
     <div class="container">
-        <!-- Barra de navegación y otros contenidos -->
+        <!-- Carrusel de imágenes -->
+        <div id="peliculasCarousel" class="carousel slide mb-4" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#peliculasCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#peliculasCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#peliculasCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/pelicula1.jpg" class="d-block w-100" alt="El Señor de los Anillos: La Comunidad del Anillo">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>El Señor de los Anillos: La Comunidad del Anillo</h5>
+                        <p>Un joven hobbit llamado Frodo Baggins es encargado de una misión épica...</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/pelicula2.jpg" class="d-block w-100" alt="El Señor de los Anillos: Las Dos Torres">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>El Señor de los Anillos: Las Dos Torres</h5>
+                        <p>Mientras la Comunidad del Anillo se dispersa, Frodo y Sam se encuentran en un viaje peligroso...</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/pelicula3.jpg" class="d-block w-100" alt="El Señor de los Anillos: El Retorno del Rey">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>El Señor de los Anillos: El Retorno del Rey</h5>
+                        <p>Con la guerra en su punto más crítico, Frodo y Sam continúan su búsqueda desesperada...</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#peliculasCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#peliculasCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
 
         <!-- Formulario de búsqueda -->
         <div class="input-group mb-3">
