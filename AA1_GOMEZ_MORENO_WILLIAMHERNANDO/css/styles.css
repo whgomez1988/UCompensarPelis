@@ -1,0 +1,59 @@
+body {
+    background-color: #000000; /* Fondo oscuro */
+    color: #000000; /* Texto blanco para mejor contraste */
+    font-family: Arial, sans-serif; /* Fuente sencilla y legible */
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: #1f1f1f; /* Fondo oscuro para las tarjetas */
+    border: none;
+    margin-bottom: 20px;
+}
+
+.card-title, .card-text {
+    color: #ffffff; /* Texto blanco para las tarjetas */
+}
+
+.container {
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    margin: auto;
+    padding: 0 15px;
+}
+
+.form-control, .btn {
+    background-color: #333333; /* Fondo oscuro para el campo de búsqueda */
+    color: #ffffff; /* Texto blanco */
+    border: 1px solid #555555; /* Borde ligeramente contrastante */
+}
+
+.form-control::placeholder {
+    color: #aaaaaa; /* Color del texto del placeholder */
+}
+
+/* Estilos responsive */
+@media (max-width: 576px) {
+    .col- {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 576px) {
+    .col-sm- {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-md- {
+        flex: 0 0 33.333%;
+        max-width: 33.333%;
+    }
+}
